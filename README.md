@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProyectoCerdef
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# proyecto-cerdef
+Aplicación web destinada a la generación de certificados de defunción 
+>>>>>>> 482b08d070ac6957079109ad20a8f18cb59a4cc3
