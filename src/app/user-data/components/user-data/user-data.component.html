@@ -1,0 +1,74 @@
+<img  src="assets/proyecto_cerdef/header_img.png">
+
+<h4 align="center"> Ingrese los nombres y apellidos del/la fallecido/fallecida </h4>
+
+<div class="div-center">
+
+  <mat-form-field appearance="outline"  class="marto15">
+    <mat-label>Primer Nombre</mat-label>
+    <input matInput placeholder="Placeholder" >
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="marto15">
+    <mat-label>Segundo Nombre</mat-label>
+    <input matInput placeholder="Placeholder">
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="marto15">
+    <mat-label>Primer Apellido</mat-label>
+    <input matInput placeholder="Placeholder">
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="marto15">
+    <mat-label>Segundo Apellido</mat-label>
+    <input matInput placeholder="Placeholder">
+  </mat-form-field>
+
+</div>
+
+
+<hr>
+<div>
+<label id="example-radio-group-label">Selecciona el tipo de identificación</label>
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  [(ngModel)]="identi">
+  <mat-radio-button class="example-radio-button" *ngFor="let iden of identificacion" [value]="iden">
+    {{iden}}
+  </mat-radio-button>
+</mat-radio-group>
+
+<mat-form-field appearance="outline" class="marto15">
+    <mat-label>{{identi}}</mat-label>
+    <input matInput >
+</mat-form-field>
+</div>
+
+
+<hr>
+<h4 align="center"> Lugar de Fallecimiento </h4>
+<div class="div-center">
+  <div>
+  <mat-form-field appearance="fill" class="marto15">
+      <mat-label>Provincia</mat-label>
+      <mat-select>
+        <mat-option  value="opcion"> opcion</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  <mat-form-field appearance="fill" class="marto15">
+      <mat-label>Cantón</mat-label>
+      <mat-select>
+        <mat-option  value="opcion"> opcion</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  <mat-form-field appearance="fill" class="marto15">
+      <mat-label>Parroquia</mat-label>
+      <mat-select>
+        <mat-option  value="opcion"> opcion</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+<hr>
+ ¿Tiene problemas? de click
+  <a routerLink=""> aquí </a> 
